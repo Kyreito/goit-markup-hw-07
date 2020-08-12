@@ -10,7 +10,7 @@
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-color: var(--secondary-white-color);
+  background-color: $secondary-white-color;
 }
 
 .icon-1::before {
@@ -67,14 +67,14 @@
   margin-top: 0;
   margin-bottom: 10px;
 
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
 }
 
 /* опис блоку якостей дрібним шрифтом*/
@@ -89,7 +89,7 @@
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 /*Work-exemples*/
@@ -117,14 +117,14 @@
 .title-text {
   margin-top: 0;
   margin-bottom: 50px;
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16em;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
 }
 
 .work-list-text {
@@ -141,7 +141,7 @@
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -149,5 +149,5 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }

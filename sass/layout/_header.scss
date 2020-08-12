@@ -2,24 +2,24 @@
 
 .page-header {
   width: 100%;
-  background-color: var(--primary-white-color);
+  background-color: $primary-white-color;
   border-bottom: 1px solid #ececec;
-}
 
-.logo {
-  display: block;
-  font-family: var(--font-family-secondary);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19em;
-  letter-spacing: 0.03em;
-  color: var(--main-black-color);
-  margin-right: 85px;
-}
+  .logo {
+    display: block;
+    font-family: $font-family-secondary;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19em;
+    letter-spacing: 0.03em;
+    color: $main-black-color;
+    margin-right: 85px;
 
-.logo-color {
-  color: var(--accent-color);
+    .logo-color {
+      color: $accent-color;
+    }
+  }
 }
 
 /*оформлення меню*/
@@ -31,18 +31,23 @@
 }
 
 .nav-item-link {
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
 
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .nav-item-list {
@@ -53,29 +58,24 @@
   margin-right: 50px;
 }
 
-.nav-item-link:hover,
-.nav-item-link:focus {
-  color: var(--accent-color);
-}
-
 .nav-item {
   display: block;
   position: relative;
 }
 
-.current::after {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  content: "";
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  border-radius: 2px;
-}
-
 .current {
-  color: var(--accent-color);
+  color: $accent-color;
+
+  &::after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
 }
 
 /*оформлення маржінів і кольору контактів*/
@@ -99,10 +99,10 @@
 .contacts-icon {
   margin-right: 10px;
   fill: currentColor;
-}
 
-.contacts-icon:hover {
-  fill: var(--accent-color);
+  &:hover {
+    fill: $accent-color;
+  }
 }
 
 .contacts-item:not(:last-child) {
@@ -116,12 +116,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts-item-link:hover,
-.contacts-item-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }

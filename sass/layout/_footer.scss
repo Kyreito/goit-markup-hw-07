@@ -4,7 +4,7 @@
   min-width: 1200px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--footer-backround-color);
+  background-color: $footer-backround-color;
 }
 
 .footer-section .container {
@@ -40,7 +40,7 @@
   padding-left: 16px;
   padding-bottom: 15px;
   width: 358px;
-  background-color: var(--footer-backround-color);
+  background-color: $footer-backround-color;
 }
 
 .footer-btn {
@@ -53,7 +53,7 @@
   padding-bottom: 12px;
   padding-left: 30px;
 
-  background: var(--accent-color);
+  background: $accent-color;
   border: none;
   border-radius: 4px;
   font-weight: 500;
@@ -61,7 +61,7 @@
   line-height: 1.62em;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   cursor: pointer;
 }
 
@@ -79,27 +79,27 @@
 .footer-logo {
   display: block;
   margin-bottom: 20px;
-  font-family: var(--font-family-secondary);
+  font-family: $font-family-secondary;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19em;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .footer-logo-color {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .post-info {
   margin-bottom: 10px;
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 /* footer contacts*/
@@ -112,7 +112,7 @@
 
 .footer-cantacts-link:hover,
 .footer-cantacts-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /* footer social links*/
@@ -140,30 +140,30 @@
 }
 
 .footer-social-wrapper:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .footer-social-icon {
-  fill: var(--primary-white-color);
+  fill: $primary-white-color;
 }
 
 .footer-title {
   margin-bottom: 20px;
   padding-top: 12px;
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .footer-form-label {
   display: block;
   padding-top: 12px;
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -171,7 +171,7 @@
   line-height: 1.14em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .footer-form {
@@ -179,7 +179,7 @@
 }
 
 .input-form-footer {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   font-weight: 400;
 }
 

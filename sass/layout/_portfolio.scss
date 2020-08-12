@@ -14,11 +14,10 @@
 .work-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.work-list > .work-list-item:hover {
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    0px 1px 1px rgba(0, 0, 0, 0.12);
+  &:hover {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      0px 1px 1px rgba(0, 0, 0, 0.12);
+  }
 }
 
 .work-list-item:nth-child(3n) {
@@ -40,7 +39,7 @@
   line-height: 1.62em;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-title-color); /*колір тексту*/
+  color: $primary-title-color; /*колір тексту*/
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
@@ -65,8 +64,8 @@
 }
 
 .portfolio-modal-btn:hover {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background-color: $accent-color;
+  color: $primary-white-color;
 }
 
 /*portfolio description*/
@@ -77,23 +76,23 @@
 
 .work-title {
   margin-bottom: 4px;
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
 }
 
 .work-art {
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .portfolio-text-wrapper {
@@ -118,14 +117,14 @@
   padding-left: 24px;
   padding-right: 24px;
 
-  font-family: var(--font-family-main);
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55em;
   letter-spacing: 0.03em;
 
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   background: rgba(33, 150, 243, 0.9);
 }
 
